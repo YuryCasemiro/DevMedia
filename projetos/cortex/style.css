@@ -1,0 +1,27 @@
+.menu a {  
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.Projetos p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.contato {
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.contato a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
