@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+}
+
+.secao {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.logo-tipo {
+    background-color: #B0DDFC;
+}
+
+.foto-logo {
+    width: 200px;
+}
+
+.logo-tipo a {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    width: 800px;
+    margin: 15px auto;
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
