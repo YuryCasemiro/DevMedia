@@ -25,11 +25,99 @@
 }
 
 p {
-    width: 800px;
+    width: 1000px;
     margin: 15px auto;
     text-align: justify;
     font-size: 18px;
     font-family: sans-serif;
-    line-height: 25px;
+    line-height: 22px;
 }
 
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin: 15px auto;
+}
+
+.sub-azul {
+    color: #3fadf7;
+    font-weight: normal;
+}
+
+.casa {
+    width: 500px;
+}
+
+.destaque-azul {
+    color: #3fadf7;
+    font-weight: bolder;
+}
+
+.servicos {
+    background-color: #1D80C1;
+    color: #ffffff;
+}
+
+.paragrafo-destaque {
+    text-align: center;
+    line-height: 30px;
+}
+
+.destaque-amarelo {
+    color: #e7ff12;
+    font-weight: bolder;
+}
+
+ul {
+    display: inline-block;
+    text-align: justify;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sub-destaque {
+    color: #1D80C1;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.corretor {
+    width: 500px;
+}
+
+.link-especial {
+    color: #3fadf7; 
+}
+
+.contato {
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #1D80C1;
+}
+
+.texto-destaque {
+    padding: 5px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.lista {
+    list-style: none;
+}
+
+.lista a {
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+
+.lista-destaque {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
