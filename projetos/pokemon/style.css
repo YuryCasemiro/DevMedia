@@ -1,8 +1,15 @@
+/*atalho*/
 :root {
     --cor0: #f97100;
     --cor1: #fff;
+    --cor2: #ed8317;
+    --cor3: #ffb500;
+    --cor4: #939393;
+    --cor5: #0000ff;
     --fonte0: sans-serif;
 }
+
+/*configuração global*/
 
 * {
     margin: 0;
@@ -20,49 +27,44 @@ html, body {
     align-items: center;
     font-size: 22px;
     font-family: var(--fonte0);
-    font-weight: bold;
-    background-color: var(--cor0);
     color: var(--cor1);
+    background-color: var(--cor0);
 }
 
-.capa {
-    background-image: url('img/capa.png');
-    background-repeat: no-repeat;
+.img-capa {
     width: 100%;
-    height: 300px;
-    padding: 10px;
 }
 
-.conteudo {
+h1 {
     width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
     text-align: center;
+    margin: 30px 0;
     font-family: var(--fonte0);
 }
 
-.conteudo h1 {
-    padding: 20px;
+.info {
+    margin: 30px auto 30px auto;
 }
 
-.conteudo p {
-    text-align: left;
-    line-height: 30px;
+.info p {
+    width: 100%;
+    font-family: var(--fonte0);
+    font-size: 16px;
+    line-height: 35px;
 }
 
 .secao {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
-    display: flex;
 }
-
 .area {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
 }
+
 .card {
     width: 320px;
     height: 380px;
@@ -70,13 +72,13 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--cor0);
+    background: var(--cor3);
     margin: 0 30px 0 0;
-    border-radius: 12px;
+    border-radius: 15px;
 }
 
 .card-sombra {
-    box-shadow: inset 0 0 15px 12px #ed8317;
+    box-shadow: inset 0 0 15px 12px var(--cor2);
 }
 
 .card h2 {
@@ -86,21 +88,37 @@ html, body {
 }
 
 .card img {
-    width: 15px;
+    width: 150px;
     height: 150px;
-    margin: 15px 0;
+    margin: 12px 0;
 }
 
 .informacoes {
     width: 100%;
+    margin: 12px 0;
 }
 
 .card ul {
     font-size: 18px;
     color: var(--cor1);
     font-family: var(--fonte0);
-    line-height: 32px;
+    line-height: 30px;
 }
 
+.area-image {
+    overflow-x: scroll;
+    margin: 0 auto 40px auto;
+}
 
+.area-image img {
+    width: 315px;
+    margin: 12px;
+}
 
+.image-sombra {
+    box-shadow: 10px 10px 10px var(--cor4);
+}
+
+.info a {
+    color: var(--cor5);
+}
