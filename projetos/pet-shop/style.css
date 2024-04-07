@@ -13,6 +13,7 @@
 
 * {
     margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -52,7 +53,10 @@ p, a, h1, h2, h3, span {
 }
 
 .capa {
-    background-image: url();
+    background-image: url('img/banner-topo.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 20px;
 }
 
 .caixa-capa {
@@ -87,10 +91,6 @@ p, a, h1, h2, h3, span {
     text-decoration: none;
 }
 
-.botao img {
-    margin: 5px;
-}
-
 .serviços {
     max-width: 800px;
     margin: 0 auto;
@@ -100,6 +100,7 @@ p, a, h1, h2, h3, span {
     color: var(--cor0);
     text-align: center;
     font-size: 35px;
+    padding-top: 10px;
     margin-bottom: 25px;
 }
 
@@ -124,12 +125,17 @@ p, a, h1, h2, h3, span {
 .img-servicos {
     max-width: 800px;
     margin: 0 auto;
+    overflow: auto;
 }
 
 .img-servicos img {
+    margin-bottom: 30px;
+    margin-right: 5px;
+}
+
+.img-sombra {
     border-radius: 10px;
     box-shadow: 3px 6px 10px 6px #0000005c;
-    display: block;
 }
 
 .link-especial {
@@ -148,13 +154,20 @@ p, a, h1, h2, h3, span {
     font-weight: bold;
 }
 
+.img-link img {
+    width: 30px;
+    height: 30px;
+}
+
 .img-link a {
     color: var(--cor1);
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .marcas {
     width: 100%;
+    text-align: center;
 }
 
 .marcas h3 {
@@ -163,12 +176,12 @@ p, a, h1, h2, h3, span {
     text-align: center;
     font-size: 35px; 
     text-align: center;
-
 }
 
 .img-marcas {
     width: 100%;
     max-width: 800px;
+    padding-bottom: 15px;
     margin: 0 auto;
 }
 
@@ -176,6 +189,11 @@ p, a, h1, h2, h3, span {
     width: 148px;
     height: 148px;
     margin: 0 15px;
+    display: inline;
+}
+
+.teste {
+    margin-right: 30px;
 }
 
 .local {
