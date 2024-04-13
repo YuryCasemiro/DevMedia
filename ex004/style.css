@@ -1,0 +1,89 @@
+/*ATALHOS*/
+:root {
+    --cor0: #000;
+    --cor1: #ff9900;
+    --text: sans-serif;
+}
+
+/*Configuração global navegador*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Configuração global de estilo*/
+
+.secao {
+    text-align: center;
+    padding: 20px 0 30px 0;
+}
+
+h1, h2, h3 {
+    font-family: var(--text);
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.paragrafo {
+    text-align: justify;
+    font-size: 18px;
+    font-family: var(--text);
+    line-height: 25px;
+    margin: 10px auto;
+    width: 950px;
+}
+
+.imagem {
+    width: 450px;
+}
+
+/*Destaque*/
+
+span {
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+/*Topo*/
+
+.topo {
+    width: 100%;
+    padding: 20px 0 15px 0;
+    background-color: var(--cor0);
+    color: var(--cor1);
+    position: fixed;
+}
+
+.p-link {
+    text-align: center;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+/*SEÇÂO DO MEIO DA PAGINA JÀ FOI ESTILIZADA NA PARTE GLOBAL*/
+
+/*RODAPE*/
+
+.paragrafo-contato {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor0);
+    color: #ffffff;
+}
+
+.link {
+    border-bottom: 2px solid var(--cor1);
+}
+
