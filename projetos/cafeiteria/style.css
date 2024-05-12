@@ -52,18 +52,23 @@ botão rodape -> largura 60px , altura 60px , bottom 80px , 50px
     box-sizing: border-box;
 }
 
+/*CONFIGURAÇÕES TOPO*/
+
 .container-topo {
     width: 100%;
-    height: 100px;
+    height: 90px;
     background-color: var(--cor3);
     position: fixed;
+    z-index: 1;
 }
 
 .container-topo img {
     width: 100px;
     position: relative;
-    left: 15%;
+    left: 10%;
 }
+
+/*CONFIGURAÇÃO MENU*/
 
 .menu {
     position: absolute;
@@ -75,23 +80,26 @@ botão rodape -> largura 60px , altura 60px , bottom 80px , 50px
     color: var(--cor1);
     text-decoration: none;
     font-family: var(--font0);
-    padding: 15px;
+    letter-spacing: 2px;
+    padding: 3px;
 }
+
+/*CONFIGURAÇÃO BANNER PARALAX 1*/
 
 .container-banner {
     background-image: url('assets/parallax-imagem1.png');
-    width: 100%;
     height: 100vh;
+    background-position: center;
+    background-size: cover;
     background-attachment: fixed;
 }
 
-.text-banner {
+.container-banner h1 {
     position: absolute;
-    top: 65%;
-    left: 25%;
-}
-
-.text-banner h1 {
+    top: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 100px;
     color: var(--cor1);
-    font-size: 60px;
 }
