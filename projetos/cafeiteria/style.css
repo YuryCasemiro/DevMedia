@@ -103,3 +103,28 @@ botão rodape -> largura 60px , altura 60px , bottom 80px , 50px
     font-size: 100px;
     color: var(--cor1);
 }
+
+/*CONFIGURAÇÃO INFORMAÇÕES*/
+
+.informacoes {
+    width: 1024px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: var(--cor1);
+}
+
+.informacoes h2 {
+    padding: 80px 0;
+    font-family: var(--font2);
+    color: var(--cor0);
+}
+
+.informacoes p {
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--font3);
+    line-height: 30px;
+    color: var(--cor4);
+}
+
+
