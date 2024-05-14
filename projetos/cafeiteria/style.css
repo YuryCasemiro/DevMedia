@@ -11,14 +11,6 @@
 }
 
 /* OBS!!!!
-banner titulo -> top 45% left 0% right 0%
-
-text informaçoes -> max largura 1024px / padding 0px 20px / 
-
-text paralax -> top 45% right 0% left 0% / largura 500px / padding 10px / 
-
-text paralax contato titulo -> largunra 500px / padding 10px / top 10% right 0% / left 0% 
-
 iframer -> largura 1024px / altura 450px / top 23% right 0% left 0%
 
 contato text -> largura 500px / padding 10px / bottom 8% right 0% left 0%
@@ -30,10 +22,6 @@ lista -> largura 768px bottom 20% right 0% left 0%
 container horarios -> alutra 85vh
 
 container contatos -> altura = 100vh
-
-container informaçoes -> altura = 50vh
-
-conteiner text informações -> padding 80px 0px
 
 itens listas -> top 50% right 0% left 0% (espaço entre o dia e a hora) / top 0% right 0%
 
@@ -100,14 +88,14 @@ botão rodape -> largura 60px , altura 60px , bottom 80px , 50px
     left: 0;
     right: 0;
     text-align: center;
-    font-size: 100px;
+    font-size: 90px;
     color: var(--cor1);
 }
 
 /*CONFIGURAÇÃO INFORMAÇÕES*/
 
 .informacoes {
-    width: 1024px;
+    max-width: 1024px;
     margin: 0px auto;
     text-align: center;
     background-color: var(--cor1);
@@ -120,6 +108,7 @@ botão rodape -> largura 60px , altura 60px , bottom 80px , 50px
 }
 
 .informacoes p {
+    padding-bottom: 80px;
     text-align: center;
     font-size: 18px;
     font-family: var(--font3);
@@ -127,4 +116,65 @@ botão rodape -> largura 60px , altura 60px , bottom 80px , 50px
     color: var(--cor4);
 }
 
+/*PARALAX*/
 
+.paralax1 {
+    background-image: url('assets/parallax-imagem2.jpg');
+    height: 50vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text {
+    color: var(--cor1);
+    font-family: var(--font3);
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.text span {
+    border: 1px solid var(--cor3); 
+    background-color: var(--cor3);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.paralax2 {
+    background-image: url('assets/parallax-imagem3.jpg');
+    height: 50vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*CONTATOS*/
+
+.paralax3 {
+    background-image: url('assets/parallax-imagem4.png');
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contatos {
+    color: var(--cor1);
+    font-family: var(--font3);
+    text-align: center;
+    position: relative;
+}
+
+.contatos h2 {
+    border: 1px solid var(--cor3);
+    background-color: var(--cor3);
+    border-radius: 3px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 300px;
+    position: absolute;
+    left: 40%;
+}
