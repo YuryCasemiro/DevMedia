@@ -10,27 +10,6 @@
     --font3: 'Lato' , sans-serif;
 }
 
-/* OBS!!!!
-iframer -> largura 1024px / altura 450px / top 23% right 0% left 0%
-
-contato text -> largura 500px / padding 10px / bottom 8% right 0% left 0%
-
-horarios titutlo -> top 20% right 0% left 0%
-
-lista -> largura 768px bottom 20% right 0% left 0% 
-
-container horarios -> alutra 85vh
-
-container contatos -> altura = 100vh
-
-itens listas -> top 50% right 0% left 0% (espaço entre o dia e a hora) / top 0% right 0%
-
-rodape -> padding 20px 0px 
-
-botão rodape -> largura 60px , altura 60px , bottom 80px , 50px 
-
-
-*/
 
 /*CONFIGURAÇÔES GLOBAIS*/
 
@@ -161,20 +140,133 @@ botão rodape -> largura 60px , altura 60px , bottom 80px , 50px
     background-size: cover;
 }
 
-.contatos {
-    color: var(--cor1);
-    font-family: var(--font3);
-    text-align: center;
+.paralax3 h2 {
+    width: 300px;
+    padding: 10px;
     position: relative;
+    top: 8%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    font-size: 23px;
+    font-family: var(--font2);
+    letter-spacing: 3px;
+    text-align: center;
+    color: var(--cor1);
+    background-color: var(--cor3);
 }
 
-.contatos h2 {
-    border: 1px solid var(--cor3);
-    background-color: var(--cor3);
-    border-radius: 3px;
-    margin: 20px auto;
+.paralax3 iframe {
+    position: relative;
+    top: 13%;
+    left: 30%;
+    right: 0;
+    margin: auto;
+}
+
+.box-contatos {
+    width: 500px;
     padding: 10px;
-    width: 300px;
+    position: relative;
+    top: 15%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: var(--cor3);
+}
+
+.box-contatos p {
+    color: var(--cor1);
+    font-family: var(--font2);
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*HORÁRIO*/
+
+.paralax4 {
+    background-image: url('assets/cafeteria.jpg');
+    height: 75vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.horario h2 {
+    position: relative;
+    margin: 0 auto;
+    padding: 80px;
+    top: 25%;
+    right: 0;
+    left: 0;
+    font-family: var(--font2);
+    text-align: center;
+    letter-spacing: 8px;
+    color: var(--cor1);
+}
+
+.lista {
+    max-width: 768px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: var(--font2);
+    list-style: none;
+    line-height: 40px;
+}
+
+.lista li {
+    position: relative;
+    color: var(--cor1);
+}
+
+.lista li div {
+    width: 70%;
+    height: 1px;
     position: absolute;
-    left: 40%;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+.lista li p, .text-marrom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-family: var(--font2);
+}
+
+.text-marrom {
+    color: var(--cor3);
+}
+
+/*RODAPE*/
+
+.rodape {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: var(--font3);
+    text-align: center;
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+.rodape a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
 }
