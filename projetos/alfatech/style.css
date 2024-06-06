@@ -1,0 +1,19 @@
+:root {
+    --font: 'Poppins';
+    --cor0: #fff;
+    --cor1: #f1f3f7;
+    --cor2: #f6f6f6;
+    --cor3: #a89f9f;
+    --cor4: #233032;
+    --cor5: #2f86d6;
+
+    /*CORES USADAS NA TABELA DE PREÇOS*/
+
+    --cor6: #fff;
+    --cor7: #f1f3f7;
+    --cor8: #f6f6f6;
+    --cor9: #a8a4a4;
+    --cor10: #233032;
+    --cor11: #2f86d6;
+    --cor12: rgba(47, 134, 214, 1); /*sombra*/
+}
