@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    color: white;
+    padding: 100px 20px;
+    background-image: url('assets/img/imagem-de-fundo.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+}
+
+.lista {
+    width: 100%;
+    max-width: 768px;
+}
+
+.lista li {
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lista li div {
+    height: 1px;
+    background-color: gray;
+    flex: 1 1 auto;
+}
+
+.lista li span {
+    color: #c4a47c;
+    font-weight: bold;
+}
+
+.lista li h3 {
+    flex: 0 1 80px;
+}
+
+.lista li span, p {
+    flex: 0 1 100px;
+    text-align: right;
+}
