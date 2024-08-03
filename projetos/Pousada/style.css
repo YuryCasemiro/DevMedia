@@ -9,7 +9,7 @@
 
 .limite {
     width: 100%;
-    width: 1024px;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -121,4 +121,110 @@
     color: #333;
 }
 
+/* MAPA */
+
+#rota {
+    padding: 0;
+}
+
+iframe {
+    width: 100%;
+}
+
+.container-cards {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    flex: 1 0 350px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    text-align: left;
+    background-color: #f1f1f1;
+}
+
+
+.container-card-texto {
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-img {
+    width: 30%;
+    height: 100%;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* RODAPE */
+
+.rodape {
+    background: #49997d;
+    color: #fff;
+}
+
+.container-info {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card-info-rodape {
+    flex: 1 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-info-rodape h4 {
+    font-size: 22px;
+}
+
+.card-info-rodape a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.icones a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.icones img {
+    padding: 10px;
+}
+
+.card-info-rodape p {
+    margin-left: 10px;
+}
+
+.card-info-rodape img {
+    width: 40px;
+    height: 40px;
+}
 
