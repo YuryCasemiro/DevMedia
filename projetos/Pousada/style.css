@@ -1,6 +1,6 @@
 /*Configuração global*/
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 .limite {
     width: 100%;
-    width: 1440px;
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -226,5 +226,13 @@ iframe {
 .card-info-rodape img {
     width: 40px;
     height: 40px;
+}
+
+.container-copi {
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    border-top: 1px solid #3b7863;
+    background-color: #49997d;
 }
 
