@@ -36,14 +36,23 @@
     width: 200px;
     height: 200px;
     gap: 20px;
+    border-radius: 50%;
 }
 
-.links nav{
+.links nav {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    padding-top: 40px;
+    margin: 0 auto;
     width: 768px;
-    align-items: center;
+}
+
+.links nav a {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: var(--cor5);
 }
 
 
@@ -53,4 +62,15 @@
 
 #estatisticas {
     font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.estatisticas h2 {
+    margin: 40px;
+}
+
+.tabela table th{
+    padding: 20px;
 }
