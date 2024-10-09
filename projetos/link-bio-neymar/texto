@@ -20,3 +20,122 @@ Jogos -> 124 / 230 / 186 / 173 / 0
 Gols -> 77 / 138 / 105 / 118 / 0 
 Assistências -> 77 / 77 / 77 / 77 / 77
 Títulos -> 2 / 6 / 8 / 13 / 0
+
+<!-- TESTE HTML
+ <header>
+    <div class="video-banner">
+        <video autoplay loop muted src="video/videoneymar.mp4"></video>
+        <div class="logo">
+            <img src="#" alt="">
+            <h1>Neymar Jr</h1>
+                <div class="links">
+                    <nav>
+                        <a href="#">Youtube</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitch</a>
+                    </nav>
+                </div>
+        </div>
+    </div>
+   </header>
+
+    <section id="estatisticas">
+        <div class="estatisticas">
+            <h2>Estatísticas</h2>
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                <p>Times</p>
+                            </th>
+                            <th>
+                                <p>Temporadas</p>
+                            </th>
+                            <th>
+                                <p>Jogos</p>
+                            </th>
+                            <th>
+                                <p>Gols</p>
+                            </th>
+                            <th>
+                                <p>Assistências</p>
+                            </th>
+                            <th>
+                                <p>Titulos</p>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="brasil">Brasil</td>
+                            <td>13</td>
+                            <td>124</td>
+                            <td>79</td>
+                            <td>56</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td class="santos">Santos</td>
+                            <td>5</td>
+                            <td>225</td>
+                            <td>136</td>
+                            <td>64</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td class="barcelona">Barcelona</td>
+                            <td>4</td>
+                            <td>186</td>
+                            <td>105</td>
+                            <td>76</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td class="psg">PSG</td>
+                            <td>6</td>
+                            <td>173</td>
+                            <td>118</td>
+                            <td>77</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td class="al-hilal">Al-Hilal</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>-->
+
+    <!--TESTE CSS
+    /*Configuração global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: 'Ysabeau', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+    
+    /*Paleta de cores pra usar no primeiro banner*/
+
+    --cor1: #ffdf00; /*cor para usar na logo*/
+    --cor2: #009c3b; /*cor para usar na logo*/
+    --cor3: #fff; /*Cor para usar na sombra do titulo*/ /*hover*/
+    --cor4: #000000; /*Cor para usar na sombra do titulo*/ /*hover*/
+    --cor5: #0200006e; /*cor usada na parte dos links*/
+    --cor6: #000000cc; /*Cor usada na parte da tabelo */
+}
+
+/*Primeiro banner*/-->
