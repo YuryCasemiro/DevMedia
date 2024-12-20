@@ -64,7 +64,8 @@
 }
 
 .box-link-horarios {
-    margin: 20px auto;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .link-horarios {
@@ -75,3 +76,22 @@
     padding: 10px 20px;
     text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+    .box-visao-geral { height: 400px;}
+}
+
+@media (max-width: 768px) {
+    .box-visao-geral { height: 300px;}
+    .container-especialidades {justify-content: center;}
+    .container-especialidade { width: calc(100% / 2 - 40px);}
+}
+
+@media (max-width: 425px) {
+    .box-visao-geral { height: 200px;}
+    .box-visao-geral h1 { font-size: 18px;}
+    .container-especialidade { width: 100%;}
+    
+}
+
+
