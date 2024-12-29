@@ -43,7 +43,7 @@
 }
 
 .tabela-especialistas {
-    border-spacing: 0;
+    border-spacing: 0; /*define a distância entre as bordas de células adjacentes em uma tabela*/
     text-align: left;
     width: 70%;
     height: 100%;
