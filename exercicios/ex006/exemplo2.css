@@ -1,17 +1,18 @@
-/*configuração global*/
+/*Configuração global*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
-    background-color: #00318b;
-    color: #fff;
-    font-size: 24px;
-    padding: 15px;
     width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    background-color: #8b0600;
+    color: #fff;
 }
 
 main {
@@ -22,7 +23,7 @@ main {
 }
 
 h1 {
-    color: #00318b;
+    color: #8b0600;
     text-align: center;
 }
 
@@ -37,17 +38,16 @@ form {
     width: 100%;
 }
 
-textarea {
-    height: 120px;
-    margin: 30px 0 25px 0;
+input {
+    height: 30px;
+    margin: 10px 0 15px 0;
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 button {
-    background-color: #00318b;
-    color: #fff;
     padding: 10px;
     margin-top: 20px;
+    background-color: #8b0600;
+    color: #fff;
 }
-
