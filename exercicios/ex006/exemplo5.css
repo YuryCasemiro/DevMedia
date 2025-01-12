@@ -1,0 +1,73 @@
+/*Configuração global*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+/*Configuração Conteúdo*/
+
+h1 {
+    color: #fe21c5;
+}
+
+p {
+    margin: 20px 0;
+}
+
+label, option {
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+    height: 55px;
+    padding: 20px;
+    background-color: #fe21c5;
+    color: #fff;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 430px;
+    height: 100%;
+    margin: 30px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.inputText {
+    height: 32px;
+    margin: 20px 0;
+}
+
+.select {
+    height: 32px;
+    margin: 20px 0;
+}
+
+.selectmultiple {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #fe21c5;
+    color:#fff;
+    border: none;
+    height: 32px;
+    font-size: 16px;
+    margin: 16px 0;
+}

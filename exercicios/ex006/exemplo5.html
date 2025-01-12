@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select</title>
+    <link rel="stylesheet" href="exemplo5.css" />
+  </head>
+  <body>
+    <header>
+      <span>Vagas</span>
+    </header>
+
+    <main>
+      <h1>Formulário de exame</h1>
+      <p>Preencha o formulário abaxio com suas informações</p>
+
+      <form action="https://www.devmedia.com.br/codigos/formularios/aula7/">
+        <label>Nome</label>
+        <input type="text" name="nome" class="inputText" required />
+
+        <label>Data de nascimento</label>
+        <input type="date" name="data de nascimento" class="inputText" />
+
+        <label>Email</label>
+        <input type="email" name="email" class="inputText" />
+
+        <select class="select" name="estado" required>
+          <option value="">Selecione o seu estado</option>
+          <option value="AC">Acre</option>
+          <option value="Al">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+
+        <label>Tecnologias:</label>
+        <select class="selectmultiple" name="tecnologias[]" size="6" multiple>
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="C#">C#</option>
+          <option value="HTML">HTML</option>
+          <option value="Java">Java</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="PHP">PHP</option>
+          <option value="Python">Python</option>
+          <option value="Ruby">Ruby</option>
+          <option value="XML">XML</option>
+        </select>
+
+        <button type="submit">Enviar formulário</button>
+      </form>
+    </main>
+  </body>
+</html>
