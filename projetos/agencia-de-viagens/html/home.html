@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência de viagens</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,23 +19,27 @@
 
     <main>
         <section class="secao-background">
-            <div class="limite">
+            <div class="limite form-conteudo">
                 <div class="topo-conteudo">
-                    <img src="" alt="">
+                    <img src="../assets/img/aviao.png" alt="">
                     <h1>Solicite um orçamento</h1>
                 </div>
 
                 <div class="conteudo-formulario">
                     <h2>Informe seus dados</h2>
                     <form action="">
-                        <label>Nome</label>
-                        <input type="text" name="nome" placeholder="Nome completo" required>
+                        <div>
+                            <label>Nome</label>
+                            <input type="text" name="nome" placeholder="Nome completo" required>
+                        </div>
 
                         <label>Email</label>
                         <input type="email" name="email" placeholder="exemplo@email.com" required>
 
-                        <label>Celular</label>
-                        <input type="tel" name="telefone" placeholder="(xx) XXXXX-XXXX" required>
+                        <div>
+                            <label>Celular</label>
+                            <input type="tel" name="telefone" placeholder="(xx) XXXXX-XXXX" required>
+                        </div>
 
                         <div class="data">
                             <div class="form-data">
