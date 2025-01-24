@@ -27,34 +27,30 @@
 
                 <div class="conteudo-formulario">
                     <h2>Informe seus dados</h2>
-                    <form action="">
-                        <div>
+                    <form class="form" action="">
                             <label>Nome</label>
                             <input type="text" name="nome" placeholder="Nome completo" required>
-                        </div>
-
-                        <label>Email</label>
-                        <input type="email" name="email" placeholder="exemplo@email.com" required>
-
-                        <div>
+                        
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="exemplo@email.com" required>
+                        
                             <label>Celular</label>
                             <input type="tel" name="telefone" placeholder="(xx) XXXXX-XXXX" required>
-                        </div>
 
-                        <div class="data">
-                            <div class="form-data">
+                        <div class="campo-duplo">
+                            <div>
                                 <label>Data de Ida</label>
                                 <input type="date" name="data-de-ida" required>
                             </div>
     
-                            <div class="form-data">
+                            <div>
                                 <label>Data de Volta</label>
                                 <input type="date" name="data-de-volta" required>
                             </div>
                         </div>
 
-                        <div class="destino">
-                            <div class="form-destino">
+                        <div class="campo-duplo">
+                            <div>
                                 <label for="origem">Origem</label>
                                 <select class="select" name="estado" id="origem" required>
                                     <option value="">Partindo de</option>
@@ -88,7 +84,7 @@
                                   </select>
                             </div>
     
-                            <div class="form-destino">
+                            <div>
                                 <label for="destino">Destino</label>
                                 <select class="select" name="estado" id="destino">
                                     <option value="">Indo para</option>
@@ -123,38 +119,37 @@
                             </div>
                         </div>
                         
-
-                        <div class="categoria quarto">
-                            <h2 class="titulo-categoria">Quarto com cama infantil?</h2>
-                            <div class="grupo-opcao">
+                        <label>Quarto com cama infantil?</label>
+                        <div class="quarto">
+                            <div>
                                 <input type="radio" name="quarto" id="quarto-sim" value="sim" required>
                                 <label for="quarto-sim">Sim</label>
                             </div>
 
-                            <div class="grupo-opcao">
+                            <div>
                                 <input type="radio" name="quarto" id="quarto-nao" value="nao">
                                 <label for="quarto-nao">Não</label>
                             </div>
                         </div>
 
-                        <div class="categoria hospedagem">
-                            <h2 class="titulo-categoria">Preferências de hospedagem</h2>
-                            <div class="grupo-opcao">
+                        <label>Preferências de hospedagem</label>
+                        <div class="quarto">
+                            <div>
                                 <input type="checkbox" name="hospedagem[]" id="check-piscina" value="piscina" required>
                                 <label for="check-piscina">piscina</label>
                             </div>
 
-                            <div class="grupo-opcao">
+                            <div>
                                 <input type="checkbox" name="hospedagem[]" id="check-wi-fi" value="wi-fi">
                                 <label for="check-wi-fi">Wi-Fi</label>
                             </div>
 
-                            <div class="grupo-opcao">
+                            <div>
                                 <input type="checkbox" name="hospedagem[]" id="check-Garagem" value="garagem">
                                 <label for="check-Garagem">Garagem</label>
                             </div>
 
-                            <div class="grupo-opcao">
+                            <div>
                                 <input type="checkbox" name="hospedagem[]" id="check-suite" value="suite">
                                 <label for="check-suite">Suite</label>
                             </div>
