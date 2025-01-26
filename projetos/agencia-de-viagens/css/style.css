@@ -8,7 +8,7 @@
 body {
     background-color: #80808029;
     font-family: 'Raleway Dots', serif;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 /*Configuração topo*/
@@ -164,4 +164,206 @@ main {
 }
 
 /*Configuração parte oferta*/
+
+.ofertas, .natureza {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0 auto; 
+}
+
+.ofertas-titulo, .natureza-titulo {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.ofertas-descrição, .natureza-descricao {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.img-ofertas {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta-img-destaque {
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.oferta-quatro-img {
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oferta-quatro-img figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+
+.oferta-img-destaque img, .oferta-quatro-img img {
+    object-fit: cover; /*determina como um elemento se "comporta" dentro de seu contêiner*/
+    width: 100%;
+    height: 100%;
+}
+
+.oferta-img-destaque figcaption, .oferta-quatro-img figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+/*Area de anuncios (natureza) */
+
+.img-dois-anuncios {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.natureza-img {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.natureza-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.natureza-img div {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.natureza-img h3 {
+    font-size: 16px;
+}
+
+.natureza-img p {
+    color: #808080;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+footer {
+    width: 100%;
+    background: #5d15d1;
+    margin-top: 32px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.contato h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.contato div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contato img {
+    width: 18px;
+}
+
+.contato  span {
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/*Configuração media queries*/
+
+@media (max-width: 1100px) {
+    .limite {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .form button {
+        width: 100%;
+    }
+
+    .img-ofertas {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .oferta-quatro-img {
+        width: 100%;
+    }
+
+    .oferta-img-destaque, .oferta-quatro-img figure {
+        width: 100%;
+        height: 225px;
+        margin: 15px;
+    }
+
+    .img-dois-anuncios {
+        flex-direction: column;
+    }
+
+    .natureza-img {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato {
+        width: 250px;
+    }
+}
+
+@media (max-width: 540px) {
+    .campo-duplo, .quarto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .campo-duplo div, .quarto div {
+        width: 100%;
+    }
+}
 
