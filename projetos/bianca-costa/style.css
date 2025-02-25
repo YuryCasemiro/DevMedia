@@ -1,0 +1,29 @@
+/*Configuração global*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F9F8F4;
+}
+
+
+
+/*Configuração topo / menu */
+
+
+.background-capa {
+    background-image: url('assets/img/fotos-galerias/enhanced-image\ \(4\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.topo-titulo img {
+    height: 50px;
+    width: 50px;
+}
