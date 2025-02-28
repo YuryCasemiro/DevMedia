@@ -67,8 +67,47 @@ body {
     font-size: 30px;
 }
 
+.projetos h2 {
+    margin: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: #BC6C25;
+}
+ 
+/* .img-projetos {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.img-grande img {
+    width: 500px;
+}
 
+.img-pequena img {
+    width: 350px;
+} */
 
+.img-projetos {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.img-projetos img {
+    width: 500px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.6;
+}
+
+.img-projetos img:hover {
+    opacity: 1;
+}
 
 
