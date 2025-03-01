@@ -21,10 +21,11 @@ body {
 /*Configuração topo / menu */
 .background-capa {
     background-image: url('assets/img/fotos-galerias/enhanced-image\ \(4\).png');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 900px;
+    height: 1000px;
     position: relative;
 }
 
@@ -32,15 +33,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 10px;
+    padding: 60px 10px;
     margin: 0 auto;
 }
 
 
 .topo-logo img {
     margin: 50px 0 20px 0;
-    height: 85px;
-    width: 85px;
+    height: 90px;
+    width: 70px;
 }
 
 .links-topo {
@@ -50,6 +51,7 @@ body {
 .topo-link {
     padding: 40px;
     text-decoration: none;
+    text-shadow: 1px 1px 10px #00000094;
     color: #F9F8F4;
     font-weight: 500;
     font-size: 23px;
@@ -74,28 +76,11 @@ body {
     color: #BC6C25;
 }
  
-/* .img-projetos {
-    width: 100%;
-    max-width: 1024px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.img-grande img {
-    width: 500px;
-}
-
-.img-pequena img {
-    width: 350px;
-} */
-
 .img-projetos {
     width: 100%;
     display: flex;
-    overflow-x: scroll;
 }
+
 
 .img-projetos img {
     width: 500px;
@@ -110,4 +95,195 @@ body {
     opacity: 1;
 }
 
+/* Anúncio */
+.bnt-orcamento {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    padding: 35px;
+    background-color: #5F6C37;
+    text-align: center;
+}
+
+.bnt-orcamento a p {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #BC6C25;
+    background-color: #BC6C25; 
+    display: inline-block;
+}
+
+.bnt-orcamento a {
+    text-decoration: none;
+    color: #F9F8F4;
+    font-weight: 500;
+}
+
+/* sobre */
+.container-sobre h3 {
+    margin: 50px 0 25px 0;
+    text-align: center;
+    font-size: 40px;
+    color: #BC6C25;
+}
+
+.container-sobre-texto {
+    display: flex;
+    width: 100%;
+    
+}
+
+.container-sobre-texto p {
+    margin: 80px 0 0 20px;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-sobre-texto img {
+    width: 500px;
+    margin-right: 10px;
+}
+
+.bnt-orcamento-sobre {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.bnt-orcamento-sobre a p {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: #BC6C25;
+    display: inline-block;
+}
+
+.bnt-orcamento-sobre a {
+    text-decoration: none;
+    color: #F9F8F4;
+}
+
+/* rodape */
+footer {
+    width: 100%;
+    background-color: #5F6C37;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.contato h3 {
+    color: #F9F8F4;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.contato div {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contato img {
+    width: 18px;
+}
+
+.contato span {
+    color: #F9F8F4;
+    font-size: px;
+    margin-left: 10px;
+}
+
+.contato span:hover {
+    background-color: #BC6C25;
+}
+.contato a {
+    text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+    .limite {
+        width: 90%;
+    }
+
+    .img-projetos img {
+        width: 490px;
+        align-items: center;
+    
+    }
+}
+
+@media (max-width: 768px) {
+    nav a {
+        text-shadow: 1px 1px 10px #00000094;
+    }
+
+    .box-titulo-capa {
+        font-size: 28px;
+    }
+    
+    .img-projetos {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bnt-orcamento a p {
+        width: 100%;
+    }
+
+    .container-sobre-texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-sobre-texto p {
+        text-align: center;
+    }
+
+    .container-sobre-texto img {
+        width: 400px;
+        height: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 540px) {
+    .topo {
+        display: flex;
+        flex-direction: column;
+    }
+    .topo-logo a img {
+        width: 90px;
+        height: 100px;
+    }
+    .links-topo a {
+        font-size: 23px;
+    }
+
+    .box-titulo-capa {
+        font-size: 22px;
+    }
+
+    .img-projetos {
+        width: 450px;
+        
+    }
+    
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
