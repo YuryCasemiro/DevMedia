@@ -51,6 +51,7 @@ body {
 span#burguer {
     color: white;
     padding: 10px;
+    margin: 20px;
     cursor: pointer;
 }
 
@@ -256,8 +257,10 @@ footer {
         width: 100%;
     }
 
-    nav a {
+    .links-topo a {
         text-shadow: 1px 1px 10px #00000094;
+        font-size: 15px;
+        padding: 20px;
     }
 
     .box-titulo-capa {
@@ -298,20 +301,18 @@ footer {
     }
 }
 
-@media (max-width: 540px) {
-    .topo {
-        display: flex;
-        flex-direction: column;
-    }
 
+@media (max-width: 540px) {
     .topo-logo a img {
         width: auto;
     }
 
     .links-topo a {
-        font-size: 20px;
+        font-size: 15px;
+        padding: 5px;
     }
-
+    
+    
     .box-titulo-capa {
         font-size: 22px;
     }
