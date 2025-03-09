@@ -283,6 +283,15 @@ footer {
     text-align: center;
 }
 
+.desenvolvedor a {
+    text-decoration: none;
+    color: black;
+}
+
+.desenvolvedor a:hover {
+    color: #BC6C25;
+}
+
 /* configuração da media para tablet e mobile */
 
 @media (max-width: 1100px) {
