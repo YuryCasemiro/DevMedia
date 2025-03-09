@@ -56,7 +56,7 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: #BC6C25;
+    background-color: #df802d;
     color: #F9F8F4;
 }
 
@@ -74,7 +74,7 @@ span#burguer:hover {
 }
 
 .topo-link:hover {
-    color: #BC6C25;
+    color: #df802d;
 }
 
 .box-titulo-capa {
@@ -123,9 +123,13 @@ span#burguer:hover {
 .bnt-orcamento a p {
     width: 300px;
     padding: 10px;
-    border: 1px solid #BC6C25;
     background-color: #BC6C25; 
     display: inline-block;
+    border-radius: 5px;
+}
+
+.bnt-orcamento p:hover {
+    background-color: #df802d;
 }
 
 .bnt-orcamento a {
@@ -171,8 +175,13 @@ span#burguer:hover {
     padding: 10px;
     border: 1px solid;
     border-radius: 5px;
+    border: 1px solid #BC6C25;
     background-color: #BC6C25;
     display: inline-block;
+}
+
+.bnt-orcamento-sobre  p:hover {
+    background-color: #df802d;
 }
 
 .bnt-orcamento-sobre a {
@@ -225,6 +234,11 @@ footer {
 }
 .contato a {
     text-decoration: none;
+}
+
+/* container desenvolvidor */
+.desenvolvedor {
+    text-align: center;
 }
 
 /* configuração da media para tablet e mobile */
@@ -319,6 +333,10 @@ footer {
 
     .img-projetos img {
         width: 400px;  
+    }
+
+    .container-sobre-texto p {
+        text-align: left;
     }
     
     .rodape {
