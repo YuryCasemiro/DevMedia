@@ -377,6 +377,10 @@ footer {
         padding: 5px;
     }
     
+    #burguer {
+        display: flex;
+        flex-flow: column nowrap;
+    }
     
     .box-titulo-capa {
         font-size: 22px;
