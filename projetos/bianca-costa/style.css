@@ -368,7 +368,8 @@ footer {
 
 
 @media (max-width: 540px) {
-    .topo-logo a img {
+
+    .topo-logo > a > img {
         width: auto;
     }
 
@@ -378,6 +379,12 @@ footer {
     }
     
     #burguer {
+        display: flex;
+        flex-flow: column nowrap;
+
+    }
+
+    #burguer > nav > a {
         display: flex;
         flex-flow: column nowrap;
     }
