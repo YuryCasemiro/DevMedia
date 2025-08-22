@@ -56,3 +56,48 @@
     max-width: 20%;
     height: auto;
  }
+
+/* configuração footer */
+footer {
+   display: flex;
+   background-color: #5f6c37;
+}
+
+.rodape {
+   display: flex;
+   padding: 30px;
+   justify-content: space-between;
+}
+
+/* .logo-rodape {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} */
+
+.logo-rodape img {
+   width: 120px;
+   height: 170px;
+}
+
+.contatos {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.contatos a {
+   color: #f9f8f4;
+   text-decoration: none;
+}
+
+.icones-rodape {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.icones-rodape img {
+   width: 40px;
+   border-radius: 50%;
+}
